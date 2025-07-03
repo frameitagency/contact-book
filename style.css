@@ -1,0 +1,119 @@
+body {margin: 0;
+padding: 0;
+
+font-family: Arial, Helvetica, sans-serif;}
+
+.navbar button { 
+    color:white;
+    background-color:transparent ;
+    border: none;
+    width: 100%;
+    font-size: larger;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar button:hover{color: rgb(6, 33, 44);
+    translate: -1px;
+    transition: all 0.3 ease;
+}
+
+.navbar {width: 100%;
+background-color:  rgb(25, 170, 228);
+bottom: 0px; 
+position: fixed;
+display: flex;
+justify-content: center;
+padding: 20px 0;
+z-index: 1000;
+border-radius: 8px;
+}
+
+form{
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+height: 100vh;}
+
+form input {display: flex;
+justify-content: center;
+align-content: center;
+margin: 10px;
+border: none;
+border-radius: 8px;
+background-color: rgb(238, 234, 230);
+padding: 20px;
+}
+
+form button{
+    color:white ;
+    background-color: rgb(25, 170, 228);
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 50px 8px 50px;
+    font-size: larger;
+    width: 100%;
+    cursor: pointer;
+    border-right: 2px solid #ffc107;
+    
+}
+form button:hover{color: rgb(6, 33, 44);
+    translate: -1px;
+    transition: all 0.3 ease;}
+
+
+.file{ border: 1px solid #ccc;
+display: inline-block;
+padding: 6px 12px;
+cursor: pointer;
+background-color: #f0f0f0;
+color: #333;
+border-radius: 4px;
+font-size: 14px;
+}
+
+#table {
+    margin-top: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    
+}
+
+#table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table tr {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 8px;
+}
+
+#table tr:hover {
+    background-color: #f1f1f1;
+}
+
+#table td {
+    padding: 15px;
+    vertical-align: middle;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#table img {
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+#table h5 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
